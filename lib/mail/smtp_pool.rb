@@ -5,6 +5,8 @@ require 'mail/smtp_pool/connection'
 
 module Mail
   class SMTPPool
+    VERSION = '0.1.0'
+
     POOL_DEFAULTS = {
       pool_size: 5,
       pool_timeout: 5

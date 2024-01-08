@@ -7,7 +7,7 @@ This gem is an extension to `Mail` that allows delivery of emails using an SMTP 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'mail_smtp_pool'
+gem 'mail_smtp_connection_pool'
 ```
 
 And then execute:
@@ -19,7 +19,7 @@ bundle
 Or install it yourself as:
 
 ```shell
-gem install mail_smtp_pool
+gem install mail_smtp_connection_pool
 ```
 
 ## Usage with ActionMailer
